@@ -9,12 +9,12 @@ import NavBottom from "./pagelinks/components/nav-bottom";
 function Page() {
   return (
     <>
-      <div>
+      <div className="sm:max-w-[450px]">
         <HeaderComponent />
         <CardsComponent />
         <NavBottom />
-      </div>
       <Footer />
+      </div>
     </>
   );
 }
