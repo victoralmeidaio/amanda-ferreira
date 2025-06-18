@@ -59,7 +59,7 @@ function NavBottom() {
 
     };
     return (
-        <div className="fixed bottom-0 right-[15%] bg-[] z-30 backdrop-blur-[8px] border-y-3 w-full py-4 max-w-[70%] rounded-[90px] mb-6  " >
+        <div className="fixed bottom-0 right-[15%] bg-[] z-30 backdrop-blur-[8px] border-y-3 w-full py-4 max-w-[70%] rounded-[90px] mb-10  " >
             <div className="flex justify-around items-center">
                 <div className="flex flex-col items-center gap-1"
                     onClick={() => abrirLinkNormal(links.contato[0].url,)}>
