@@ -1,9 +1,8 @@
 "use client";
 
-import CardsComponent from "./pagelinks/components/cards";
-import HeaderComponent from "./pagelinks/components/header";
-import NavBottom from "./pagelinks/components/nav-bottom";
-
+import CardsComponent from "./components/cards";
+import HeaderComponent from "./components/header";
+import NavBottom from "./components/nav-bottom";
 
 function Page() {
     return (
