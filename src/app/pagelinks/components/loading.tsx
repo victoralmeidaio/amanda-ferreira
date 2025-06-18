@@ -17,7 +17,7 @@ function Loading() {
     if (loading) {
         return (
             <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#060606]">
-                <Image src={Logo} alt="Logo Amanda Ferreira" width={360} height={360} className="animate-pulse" />
+                <Image src={Logo} alt="Logo Amanda Ferreira" width={260} height={260} className="animate-pulse" />
             </div>
         );
     }
