@@ -10,14 +10,14 @@ function Loading() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setLoading(false);
-        }, 2000);
+        }, 3000);
         return () => clearTimeout(timer);
     }, []);
 
     if (loading) {
         return (
             <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#060606]">
-                <Image src={Logo} alt="Logo Amanda Ferreira" width={160} height={160} className="animate-pulse" />
+                <Image src={Logo} alt="Logo Amanda Ferreira" width={360} height={360} className="animate-pulse" />
             </div>
         );
     }
